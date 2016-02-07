@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/topContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/unnamed"
+            tools:context="${relativePackage}.${activityClass}" >
+
+            <LinearLayout
+                android:id="@+id/optionsLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/buttonUrlGo"
+                android:layout_marginTop="71dp"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonLogo"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/swaram"
+                android:gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/textViewBookMarksTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:text="@string/welcome"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonMyFeeds"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@+id/buttonLogo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/button_shape_orange"
+                android:text="FEEDS"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonMyFiles"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/buttonMyFeeds"
+                android:layout_below="@+id/buttonMyFeeds"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/button_shape_orange"
+                android:text="MY FILES"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/buttonReadFromImage"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/buttonMyFiles"
+                android:layout_below="@+id/buttonMyFiles"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_shape_orange"
+                android:text="READ FROM IMAGE"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

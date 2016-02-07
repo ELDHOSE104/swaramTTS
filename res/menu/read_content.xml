@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/select_keypad"
+        
+        android:showAsAction="always"
+        android:title="Choose keypad">
+    </item>
+    <item
+        android:id="@+id/download_voice"
+        android:showAsAction="always"
+        android:title="Download Voice Data">
+    </item>
+    <item
+        android:id="@+id/save_file"
+        android:showAsAction="always"
+        android:title="Save File">
+    </item>
+    <item
+        android:id="@+id/open_file"
+        android:showAsAction="always"
+        android:title="Open File">
+    </item>
+    <item
+        android:id="@+id/clear"
+        android:showAsAction="always"
+        android:title="Clear Field">
+    </item>
+    <item
+        android:id="@+id/prediction"
+        android:showAsAction="always"
+        android:title="Turn on Prediction">
+    </item>
+
+</menu>

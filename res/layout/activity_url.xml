@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/unnamed"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/buttonUrlGo"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_shape_orange"
+        android:text="GO" />
+
+    <EditText
+        android:id="@+id/editTextUrlLink"
+        android:layout_width="238dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/buttonUrlGo"
+        android:layout_alignLeft="@+id/buttonUrlGo"
+        android:layout_alignRight="@+id/buttonUrlGo"
+        android:layout_marginBottom="51dp"
+        android:background="@drawable/edittext_default_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter URL" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonViewBookmarks"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/buttonUrlGo"
+        android:layout_below="@+id/buttonUrlGo"
+        android:layout_marginTop="37dp"
+        android:background="@drawable/button_shape_orange"
+        android:text="BOOKMARKS" />
+
+</RelativeLayout>

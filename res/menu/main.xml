@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="always"
+        android:title="Read">
+    </item>
+    <item
+        android:id="@+id/addBookMark"
+        android:showAsAction="always"
+        android:title="Add BookMarks">
+    </item>
+    <item
+        android:id="@+id/finishBrowsing"
+        android:showAsAction="always"
+        android:title="Exit from Browsing">
+    </item>
+
+</menu>

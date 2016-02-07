@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/jsoup-1.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/opennlp-maxent-3.0.3.jar"/>
+	<classpathentry kind="lib" path="libs/opennlp-tools-1.5.3.jar"/>
+	<classpathentry kind="lib" path="libs/opennlp-uima-1.5.3.jar"/>
+	<classpathentry kind="lib" path="libs/junidecode-0.1.1.jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
